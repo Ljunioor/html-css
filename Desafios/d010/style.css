@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family:'idroid' ;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+.header{
+    background-image: linear-gradient( to bottom, #4EF478,#04BF33);
+    color: white;
+    text-align: center;
+    z-index: 1;   
+}
+.nav{
+    background-color: #04BF33;
+    box-shadow: 0px 2px 5px black;
+    margin: 0px;
+    z-index: 0;
+}
+.nav > a{
+    text-decoration: none;
+    color: white; 
+    text-align: left;
+    font-weight: bold;
+    text-shadow:2px 2px 5px black;
+    padding: 0px 5px 0px 10px;
+    
+}
+main{
+    background-color: #4EF478;
+}
+main > .corpo{
+    background-color: white;
+    margin: 0px 16% 0 16%;
+    text-align: justify;
+    box-shadow: 0px 1px 5px black;
+    padding: 10px 10px 10px 10px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.bugdroid{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+h1, h2{
+    color: #04BF33;
+    text-align: left;
+    font-family: 'idroid', sans-serif;
+    text-shadow:1px 1px 2px black;
+    margin: 10px 0px 10px 0px;  
+}
+h2{
+    background-image: linear-gradient(to right, #4EF478 , white 50% );
+    background-attachment: fixed;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+a{
+    color: #257338;
+    font-weight:bolder;
+}
+.video{
+    background-color:#04BF33 ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 100%;
+    padding: 4% 10% 4% 10%;
+}
+footer{
+    background-color:#04BF33
+    
+}
+p{
+    text-indent: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    padding: 5px 10px 5px 10px;
+}
+.tabela{
+    background-color: #4EF478;
+    border-radius: 10px;
+    padding: 0px 0px 5px 0px;
+    margin: 10px 0 10px 0px;
+    box-shadow: 0px 1px 5px black;
+}
+.tabela >h4{
+background-color: #257338;
+border-radius: 10px 10px 0px 0px;
+padding: 10px 0 10px 15px;
+margin: 0px;
+color: white;
+font-size: 120%;
+
+}
+.tabela > p{
+    padding: 0px 5px 0px 5px;
+}
+ul{
+    margin: 15px 0 15px 0;
+    list-style-type:circle;
+}
+.esquerda{
+    display: inline-block;
+    text-decoration: underline;
+}
+.direita{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+}

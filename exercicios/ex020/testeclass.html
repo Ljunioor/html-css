@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste div com class</title>
+    <style>
+        div > p {
+            display: none;
+        }
+        div:hover{
+            color: red;
+        }
+        div:hover > p{
+            display: block;
+            color: blue;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        aqui temos um paragrafo com div e no lugar de id utilizarei class, so pra ver...
+        <p>Esta é uma seção dentro de div que foi ocultada por outra psudo classe escondendo pelo display</p>
+    </div>
+    <a href="pseudoclasse.html">pseudo classe</a>
+</body>
+</html>
