@@ -1,158 +1,159 @@
 .btn {
-    display: inline-block;
-    font-family: "mic-32-new-rounded-web", sans-serif;
-    font-weight: 700;
-    line-height: 1.5;
-    color: #212529;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: 0.5rem 1.25rem;
-    font-size: 0.875rem;
-    border-radius: 0.75rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
+  display: inline-block;
+  font-family: "mic-32-new-rounded-web", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+  border-radius: 0.75rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
 
-  @media (prefers-reduced-motion: reduce)
-   {}
-    .btn {
-      transition: none;
+@media (prefers-reduced-motion: reduce)
+ {}
+  .btn {
+    transition: none;
+  }
+  .btn:hover {
+      color: #212529;
     }
-    .btn:hover {
-        color: #212529;
-      }
 
 .group-button {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 0.5rem;
-  }
-  .group-button .button-basic {
-    border: 0.0625rem solid rgba(255, 255, 255, 0.5);
-    border-radius: 0.75rem;
-    color: #ffffff;
-    font-family: "mic-32-new-rounded-web", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  .group-button {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20zpx;
-    line-height: 1.25rem;
-    color: #ffffff;
-  }
-  .group-button .button-gold {
-    border: 0.0625rem solid #ff706f;
-    border-radius: 0.75rem;
-    color: #ff706f;
-    font-family: "mic-32-new-rounded-web", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    text-align: center;
-    text-transform: uppercase;
-    margin-left: 1rem;
-  }
-  .group-button {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20zpx;
-    line-height: 1.25rem;
-    color: #ff706f;
-  }
+  display: block;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+.group-button .button-basic {
+  border: 0.0625rem solid rgba(255, 255, 255, 0.5);
+  border-radius: 0.75rem;
+  color: #ffffff;
+  font-family: "mic-32-new-rounded-web", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.group-button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20zpx;
+  line-height: 1.25rem;
+  color: #ffffff;
+}
+.group-button .button-gold {
+  border: 0.0625rem solid #ff706f;
+  border-radius: 0.75rem;
+  color: #ff706f;
+  font-family: "mic-32-new-rounded-web", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 0rem;
+  margin-top: 1rem;
+}
+.group-button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20zpx;
+  line-height: 1.25rem;
+  color: #ff706f;
+}
 
-  .group-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 1rem;
-  }
-  .group-button {
-    border: 0.0625rem solid rgba(255, 255, 255, 0.5);
-    border-radius: 0.75rem;
-    color: #ffffff;
-    font-family: "mic-32-new-rounded-web", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-  }
-  .group-button .button-basic{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20zpx;
-    line-height: 1.25rem;
-    color: #ffffff;
-  }
-  .group-button  {
-    width: 100%;
-    border: 0.0625rem solid #ff706f;
-    border-radius: 0.75rem;
-    color: #ff706f;
-    font-family: "mic-32-new-rounded-web", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  .group-button {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20zpx;
-    line-height: 1.25rem;
-    color: #ff706f;
-  }
+.group-button {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+.group-button {
+  border: 0.0625rem solid rgba(255, 255, 255, 0.5);
+  border-radius: 0.75rem;
+  color: #ffffff;
+  font-family: "mic-32-new-rounded-web", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.group-button .button-basic{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20zpx;
+  line-height: 1.25rem;
+  color: #ffffff;
+}
+.group-button  {
+  width: 100%;
+  border: 0.0625rem solid #ff706f;
+  border-radius: 0.75rem;
+  color: #ff706f;
+  font-family: "mic-32-new-rounded-web", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.group-button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20zpx;
+  line-height: 1.25rem;
+  color: #ff706f;
+}
 
-  .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
-    padding-right: 1.03125rem;
-    padding-left: 1.03125rem;
-  }
-  .btn-lg, .btn-group-lg > .btn {
-    padding: 0.8125rem 1.375rem;
-    margin: 1%;
-    font-size: 1rem;
-    border-radius: 0.75rem;
-  }
-  .text-uppercase {
-    text-transform: uppercase !important;
-  }
-  .btn-check[disabled] + .btn, .btn-check:disabled + .btn {
-    pointer-events: none;
-    filter: none;
-    opacity: 0.65;
-  }
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
+  padding-right: 1.03125rem;
+  padding-left: 1.03125rem;
+}
+.btn-lg, .btn-group-lg > .btn {
+  padding: 0.8125rem 1.375rem;
+  margin: 0%;
+  font-size: 1rem;
+  border-radius: 0.75rem;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.btn-check[disabled] + .btn, .btn-check:disabled + .btn {
+  pointer-events: none;
+  filter: none;
+  opacity: 0.65;
+}
 
-  .input-group .btn {
-    position: relative;
-    z-index: 2;
-  }
+.input-group .btn {
+  position: relative;
+  z-index: 2;
+}
 
-  .input-group .btn:focus {
-    z-index: 3;
-  }
-  .input-group-lg > .btn {
-    padding: 0.5rem 1rem;
-    font-size: 1.25rem;
-    border-radius: 0.3rem;
-  }
+.input-group .btn:focus {
+  z-index: 3;
+}
+.input-group-lg > .btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
 
-  .group-button {
-    border: none;
-  }
+.group-button {
+  border: none;
+}
