@@ -1,0 +1,12 @@
+.foto{
+    
+    
+        animation: smart 1.3s ease-in-out alternate infinite;
+    }
+    @keyframes smart{
+        from{
+            transform: translateY(-3%);
+        }to{
+            transform: translateY(0%);
+        }
+    }
